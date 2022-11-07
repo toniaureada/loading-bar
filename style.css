@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
 }
 .container .loading-bar {
   display: flex;
@@ -61,7 +60,7 @@
 }
 
 h3 {
-  margin-top: -64px;
+  margin-top: -47px;
   font-family: 'Work Sans', sans-serif;
   color: #f5f5f5;
 }
