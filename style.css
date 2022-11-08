@@ -20,23 +20,21 @@
   border-radius: 50px;
   overflow: hidden;
   
-
 }
-@keyframes progress-animation {
-
-
+@-webkit-keyframes progress-animation {
+ 
   15% {
     width: 15%;
   }
-  
+
 }
 .container .loading-bar .progress-bar {
   display: flex;
   height: 100%;
-  width: 50%;
+  width: 55%;
   background: #5b1683;
   -webkit-animation: progress-animation 1s ease-in-out;
-
+          animation: progress-animation 5s ease-in-out;
 }
 
 h3 {
